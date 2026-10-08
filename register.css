@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.Register {
+    width: 300px;
+    background-color: rgb(20, 20, 214);
+    padding: 30px;
+    margin: 100px auto;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 5px 10px 5px black;
+}
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    text-align: center;
+}
+.Register h2 {
+    margin-bottom: 20px;
+    color:rgb(0, 255, 0);
+}
+.Register input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.Register button {
+    width: 100%;
+    padding: 10px;
+    background:  rgb(253, 10, 10);
+    border: none;
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+} 
+.Register button:hover {
+    background: crimson;
+}
+.Register a {
+    text-decoration: none;
+    color:  rgb(253, 10, 10);
+}
+.Register a:hover {
+    color: crimson;
+}
